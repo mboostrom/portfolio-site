@@ -1,37 +1,33 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import SignOutButton from "../authentication/SignOutButton";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 
-const TopBar = ({ user }) => {
-  const unauthenticatedListItems = [
-    <li key="sign-in">
-      <Link to="/user-sessions/new">Sign In</Link>
-    </li>,
-    <li key="sign-up">
-      <Link to="/users/new" className="button">
-        Sign Up
-      </Link>
-    </li>,
-  ];
-
-  const authenticatedListItems = [
-    <li key="sign-out">
-      <SignOutButton />
-    </li>,
-  ];
-
+const TopBar = (props) => {
   return (
     <div className="top-bar">
       <div className="top-bar-left">
         <ul className="menu">
-          <li className="menu-text">App</li>
-          <li>
-            <Link to="/">Home</Link>
+          <li className="menu-text">
+            <span className="name">Max Boostrom |</span> Full Stack Developer
           </li>
         </ul>
       </div>
       <div className="top-bar-right">
-        <ul className="menu">{user ? authenticatedListItems : unauthenticatedListItems}</ul>
+        <ul className="menu-options">
+          <li>Projects</li>
+          <li>Contact</li>
+          <li>
+            <a href="https://www.linkedin.com/in/max-boostrom/">
+              <FontAwesomeIcon icon={faLinkedin} size="xl" />
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/mboostrom">
+              <FontAwesomeIcon icon={faGithub} size="xl" />
+            </a>
+          </li>
+        </ul>
       </div>
     </div>
   );

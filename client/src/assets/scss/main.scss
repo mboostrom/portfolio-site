@@ -1,6 +1,7 @@
 @import "./foundation/settings";
 @import "~foundation-sites/scss/foundation";
 @include foundation-everything;
+@import url("http://fonts.cdnfonts.com/css/gotham");
 // place global css here
 *,
 *::before,
@@ -11,4 +12,93 @@
 :root {
   -moz-tab-size: 4;
   tab-size: 4;
+}
+
+.menu-text {
+  font-family: "Gotham Thin", sans-serif;
+  font-size: 28px;
+}
+
+.name {
+  font-family: "Gotham", sans-serif;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.top-bar-right {
+  width: 30%;
+  margin-right: 3em;
+  background-color: black !important;
+}
+
+.menu {
+  margin-left: 3em;
+  color: white;
+  background-color: black !important;
+}
+
+.menu-options {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 !important;
+  background-color: black !important;
+}
+
+.menu-options li {
+  list-style: none;
+  color: white;
+  background-color: black !important;
+  font-family: "Gotham", sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+a {
+  color: white !important;
+}
+
+a:visited {
+  color: white !important;
+}
+
+.top-bar {
+  height: 84px;
+  background-color: black !important;
+}
+
+.header {
+  width: 1200px;
+  height: 451px;
+  background-image: url("./images/blue-wire-city-faded.png");
+  background-position: center;
+  background-size: fill;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.header p {
+  color: white;
+  font-size: 21px;
+  font-family: "Gotham", sans-serif;
+  width: 478px;
+  margin-left: 128px;
+}
+
+.hello {
+  font-size: 36px;
+  font-family: "Gotham", sans-serif;
+  font-weight: bold;
+}
+
+.back-nine-header {
+  float: right;
+  width: 376px;
+  height: 671px;
+  background-image: url("./images/back-nine-interior.png");
+  background-position: center;
+  background-size: cover;
+  margin-top: -335px;
+  margin-right: 94px;
 }
