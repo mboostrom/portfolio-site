@@ -1,22 +1,14 @@
-import React from "react"
+import React from 'react'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons"
 
-const TopBar = (props) => {
-  return (
-    <div className="top-bar">
-      <div className="top-bar-left">
-        <ul className="menu">
-          <li className="menu-text">
-            <span className="name">Max Boostrom |</span> Full Stack Developer
-          </li>
-        </ul>
-      </div>
-      <div className="top-bar-right">
-        <ul className="menu-options">
-          <li>Projects</li>
-          <li>Contact</li>
-          <li>
+const Footer = props => {
+  return(
+    <div className="footer">
+      <h3><span className="name">Max Boostrom |</span> Full Stack Developer</h3>
+      <div className="footer-right">
+        <ul className="footer-links">
+        <li>
             <a href="https://www.linkedin.com/in/max-boostrom/" target="_blank">
               <FontAwesomeIcon icon={faLinkedin} size="xl" />
             </a>
@@ -32,4 +24,4 @@ const TopBar = (props) => {
   )
 }
 
-export default TopBar
+export default Footer
