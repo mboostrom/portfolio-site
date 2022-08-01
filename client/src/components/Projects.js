@@ -3,7 +3,7 @@ import ReviewButton from "./ReviewButton"
 
 const Projects = (props) => {
   return (
-    <div className="projects">
+    <div className="projects" id="projects-div">
       <div className="recents">
         <h3>Recent UX Projects</h3>
         <p>Single page projects focussing on front-end technologies</p>

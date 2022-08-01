@@ -14,7 +14,7 @@ const TopBar = (props) => {
       </div>
       <div className="top-bar-right">
         <ul className="menu-options">
-          <li>Projects</li>
+          <li><a href="#projects-div">Projects</a></li>
           <li>Contact</li>
           <li>
             <a href="https://www.linkedin.com/in/max-boostrom/" target="_blank">

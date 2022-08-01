@@ -20,6 +20,10 @@
   margin: auto;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .menu-text {
   font-family: "Gotham Thin", sans-serif;
   font-size: 28px;
