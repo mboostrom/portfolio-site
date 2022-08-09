@@ -33,7 +33,9 @@ const Projects = (props) => {
             Developed a landing page from a mockup supplied in Adobe XD using React, HTML, and
             Javascript. The header and footer are static.
           </p>
-          <ReviewButton />
+          <div className="review-button">
+            <a href="https://article-landing-page.herokuapp.com/" target="_blank">Review the project</a>
+          </div>
         </div>
         <div className="project-tile">
           <div className="project-pic-3"></div>
@@ -45,7 +47,6 @@ const Projects = (props) => {
             Developed an interactive quiz using React, HTML, and CSS. The header and footer are
             static but the remainder of the page is fully functional.
           </p>
-          <ReviewButton />
         </div>
       </div>
     </div>
