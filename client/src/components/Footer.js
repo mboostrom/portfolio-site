@@ -1,14 +1,22 @@
-import React from 'react'
+import React from "react"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons"
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons"
 
-const Footer = props => {
-  return(
+const Footer = (props) => {
+  return (
     <div className="footer">
-      <h3><span className="name">Max Boostrom |</span> Full Stack Developer</h3>
+      <h3>
+        <span className="name">Max Boostrom |</span> Full Stack Developer
+      </h3>
       <div className="footer-right">
         <ul className="footer-links">
-        <li>
+          <li>
+            <a href="mailto:maxboostrom@gmail.com" className="email">
+              <FontAwesomeIcon icon={faEnvelope} size="xl" />
+            </a>
+          </li>
+          <li>
             <a href="https://www.linkedin.com/in/max-boostrom/" target="_blank">
               <FontAwesomeIcon icon={faLinkedin} size="xl" />
             </a>
