@@ -17,9 +17,7 @@ const OriginalConcept = (props) => {
           satellite map of the course you search for to get a sense of what the course is like
           before playing.
         </p>
-        <div className="review-button">
-          <a href="https://back-nine.herokuapp.com/" target="_blank">Review the project</a>
-        </div>
+          <a href="https://back-nine.herokuapp.com/" target="_blank" className="review-button">Review the project</a>
       </div>
       <div className="BN-pic-1"></div>
       <div className="BN-pic-2"></div>

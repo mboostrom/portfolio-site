@@ -21,8 +21,10 @@ const HomePage = (props) => {
           <p className="hello">hello.</p>
           <p className="code h1-close">{h1Close}</p>
           <p className="code p-open">{p}</p>
-          <p className="header-p">I am highly motivated and skilled in web development. I am fluent in JavaScript,
-          React, Node.js, HTML5, and CSS3.</p>
+          <p className="header-p">
+            I am highly motivated and skilled in web development. I am fluent in JavaScript, React,
+            Node.js, HTML5, and CSS3.
+          </p>
           <p className="code p-close">{pClose}</p>
           <p className="code">{divClose}</p>
         </div>
@@ -36,18 +38,20 @@ const HomePage = (props) => {
           <div className="logo tech-logo-4"></div>
           <div className="logo tech-logo-5"></div>
         </div>
-        <div className="about">
-          <p>
-            I have over 5 years of successful consumer management and communications combined with a
-            strong visual background and a tenacity for development languages. I truly enjoy what I
-            do.
-          </p>
-        </div>
-        <AboutSection />
-        <Projects />
-        <OriginalConcept />
-      <Contact />
+      
+      <div className="about">
+        <p>
+          I have over 5 years of successful consumer management and communications combined with a
+          strong visual background and a tenacity for development languages. I truly enjoy what I
+          do.
+        </p>
       </div>
+      </div>
+      <AboutSection />
+      <div className="home-page">
+        <Projects />
+      </div>
+      <OriginalConcept />
       <Footer />
     </div>
   )

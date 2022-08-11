@@ -27,7 +27,9 @@ html {
 
 .code {
 font-size: 12px !important;
-font-family: 'Kalam', cursive !important;
+code {
+  font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif !important;
+}
 }
 
 .h1-open{
@@ -75,11 +77,11 @@ font-family: 'Kalam', cursive !important;
 }
 
 a {
-  color: white !important;
+  color: white;
 }
 
 a:visited {
-  color: white !important;
+  color: white;
 }
 
 .top-bar {
@@ -125,7 +127,7 @@ a:visited {
   background-image: url("./images/back-nine-interior.png");
   background-position: center;
   background-size: cover;
-  margin-top: -335px;
+  margin-top: -355px;
   margin-right: 65px;
 }
 
@@ -135,16 +137,16 @@ a:visited {
   align-items: center;
   width: 535px;
   margin-left: 90px;
-  margin-top: 25px;
+  margin-top: 50px;
   margin-bottom: 20px;
 }
 
 .tech-logo-1 {
-  background-image: url("./images/JS.png");
+  background-image: url("./images/javascript.png");
   background-position: center;
   background-size: cover;
-  height: 92px;
-  width: 92px;
+  height: 65px;
+  width: 65px;
 }
 
 .tech-logo-2 {
@@ -156,11 +158,11 @@ a:visited {
 }
 
 .tech-logo-3 {
-  background-image: url("./images/node.png");
+  background-image: url("./images/node-js.png");
   background-position: center;
   background-size: cover;
-  height: 110px;
-  width: 110px;
+  height: 70px;
+  width: 70px;
 }
 
 .tech-logo-4 {
@@ -175,8 +177,8 @@ a:visited {
   background-image: url("./images/css3.png");
   background-position: center;
   background-size: cover;
-  height: 70px;
-  width: 70px;
+  height: 65px;
+  width: 65px;
 }
 
 .about {
@@ -189,6 +191,7 @@ a:visited {
   font-family: "Gotham", sans-serif;
   font-size: 21px;
   font-weight: 200;
+  margin-top: 50px;
 }
 
 .about-section {
@@ -197,7 +200,7 @@ a:visited {
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  width: 1200px;
+  width: 100%;
   height: 559px;
   margin-top: 200px;
 }
@@ -315,26 +318,27 @@ a:visited {
   height: 651px;
   width: 289px;
   border: 1px solid #56b3c4;
-  border-radius: 12px;
-  padding-top: 7px;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
   text-align: center;
   padding-bottom: 25px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
 .project-pic-1 {
-  background-image: url("./images/college.png");
+  background-image: url("./images/ufc-lp.jpeg");
   background-position: center;
   background-size: cover;
   height: 231px;
-  width: 285px;
+  width: 287px;
 }
 
 .project-pic-2 {
-  background-image: url("./images/cfgi.png");
+  background-image: url("./images/cfgi-lp.jpeg");
   background-position: center;
   background-size: cover;
   height: 231px;
@@ -393,24 +397,28 @@ a:visited {
   border: 1px solid #79b2d4;
   border-radius: 4px;
   padding-top: 10px;
-  background-color: white;
-}
-
-.review-button a {
-  color: #1e77ac !important;
+  color: #1e77ac;
   font-family: "Gotham", sans-serif;
   font-size: 14px;
 }
 
+.review-button:visited{
+  color: #1e77ac;
+}
+
+.review-button:hover{
+  color: white;
+  background-color: #1e77ac;
+}
+
 .concept-section {
-  width: 1200px;
+  width: 100%;
   height: 628px;
   background-color: #edf1f3;
   display: flex;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: center;
   margin-top: 88px;
-  padding-left: 140px;
 }
 
 .about-project {
@@ -478,29 +486,14 @@ a:visited {
 }
 
 .footer-links li{
-  margin-left: 20px;
+  margin-left: 30px;
 }
 
-.contact{
-  margin-top: 75px;
-  margin-bottom: 30px;
-  text-align: center;
+.email:hover{
+  color: white;
 }
 
-.contact h3 {
-  font-size: 36px;
-  font-family: "Gotham", sans-serif;
-  font-weight: bold;
-  text-align: center;
-  margin-bottom: 30px;
+.email:visited{
+  color: white;;
 }
 
-.contact a{
-  color: black !important;
-}
-
-.contact-link p{
-  font-family: "Gotham", sans-serif;
-  font-size: 18px;
-  margin-top: 10px;
-}

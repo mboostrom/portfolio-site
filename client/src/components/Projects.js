@@ -19,9 +19,7 @@ const Projects = (props) => {
             Developed a landing page from a mockup supplied in Adobe XD using React, HTML, and
             Javascript. The header and footer are static.
           </p>
-          <div className="review-button">
-            <a href="https://college-landing-page.herokuapp.com/" target="_blank">Review the project</a>
-          </div>
+            <a href="https://college-landing-page.herokuapp.com/" target="_blank" className="review-button">Review the project</a>
         </div>
         <div className="project-tile">
           <div className="project-pic-2"></div>
@@ -33,9 +31,7 @@ const Projects = (props) => {
             Developed a landing page from a mockup supplied in Adobe XD using React, HTML, and
             Javascript. The header and footer are static.
           </p>
-          <div className="review-button">
-            <a href="https://article-landing-page.herokuapp.com/" target="_blank">Review the project</a>
-          </div>
+            <a href="https://article-landing-page.herokuapp.com/" target="_blank" className="review-button">Review the project</a>
         </div>
         <div className="project-tile">
           <div className="project-pic-3"></div>

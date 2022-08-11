@@ -1,6 +1,7 @@
 import React from "react"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons"
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons"
 
 const TopBar = (props) => {
   return (
@@ -14,15 +15,23 @@ const TopBar = (props) => {
       </div>
       <div className="top-bar-right">
         <ul className="menu-options">
-          <li><a href="#projects-div">Projects</a></li>
-          <li>Contact</li>
           <li>
-            <a href="https://www.linkedin.com/in/max-boostrom/" target="_blank">
+            <a href="#projects-div">Projects</a>
+          </li>
+          <a href="mailto:maxboostrom@gmail.com" className="email">
+            <FontAwesomeIcon icon={faEnvelope} size="xl" />
+          </a>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/max-boostrom/"
+              target="_blank"
+              className="linkedin"
+            >
               <FontAwesomeIcon icon={faLinkedin} size="xl" />
             </a>
           </li>
           <li>
-            <a href="https://github.com/mboostrom" target="_blank">
+            <a href="https://github.com/mboostrom" target="_blank" className="github">
               <FontAwesomeIcon icon={faGithub} size="xl" />
             </a>
           </li>
