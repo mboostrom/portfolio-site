@@ -7,7 +7,7 @@ const Projects = (props) => {
       <div className="recents">
         <h3>Projects</h3>
         <p>
-          Landing pages for PPC, Services and Content marketing. Focussing primarily on Frontend
+          Landing pages for PPC, Services and Content marketing.<br /> Focussing primarily on Frontend
           technologies.
         </p>
       </div>

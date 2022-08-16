@@ -29,8 +29,8 @@ const AboutSection = (props) => {
             <div className="about-pic about-tile-picture-3"></div>
             <h5>Hard working</h5>
             <p>
-              A proven track record of meeting goals and KPIs while enjoying what I do and learning
-              new languages.
+              A proven track record of meeting goals and KPIs while learning
+              new languages and continuing to grow my skills as a developer.
             </p>
           </div>
         </div>
