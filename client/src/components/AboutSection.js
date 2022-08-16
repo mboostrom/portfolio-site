@@ -4,10 +4,9 @@ const AboutSection = (props) => {
   return (
     <>
       <div className="about-section">
-        <div className="top-about"></div>
         <div className="about-header">
           <h3>How I work</h3>
-          <p>Listen, learn, research, apply and try it. Repeat until well done.</p>
+          <p>Listen, review, research, create options, and develop and proof them.<br />Repeat until well done.</p>
         </div>
         <div className="about-tile-section">
           <div className="about-tile">
