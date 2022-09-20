@@ -334,11 +334,12 @@ a:visited {
 }
 
 .project-pic-3 {
-  background-image: url("./images/quiz.png");
-  background-position: center;
+  background-image: url("./images/hatfield.jpg");
+  background-position: top;
   background-size: cover;
   height: 231px;
-  width: 192px;
+  width: 286px;
+  overflow: hidden;
 }
 
 .project-tile p {
@@ -483,30 +484,4 @@ a:visited {
 
 .email:visited {
   color: white;
-}
-
-.zen-desk {
-  border: 1px solid #1e77ac;
-  width: 918px;
-  height: 785px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 20px;
-  margin-top: 63px;
-  border-radius: 4px;
-  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-}
-
-.zendesk-pic{
-  background-image: url('./images/zen-desk.png');
-  width: 870px;
-  height: 495px;
-  margin-bottom: 40px;
-}
-
-.zendesk-about{
-  font-family: proxima-nova, sans-serif;
-  font-size: 18px;
-  text-align: center;
 }

@@ -7,8 +7,8 @@ const Projects = (props) => {
       <div className="recents">
         <h3>Projects</h3>
         <p>
-          Landing pages for PPC, Services and Content marketing.<br /> Focussing primarily on Frontend
-          technologies.
+          Landing pages for PPC, Services and Content marketing.
+          <br /> Focussing primarily on Frontend technologies.
         </p>
       </div>
       <div className="project-tile-section">
@@ -51,36 +51,21 @@ const Projects = (props) => {
         <div className="project-tile">
           <div className="project-pic-3"></div>
           <div className="project-title">
-            <h5>Interactive Quiz</h5>
+            <h5>Landing Page</h5>
             <p>JS | HTML5 | CSS3</p>
           </div>
           <p>
-            Developed an interactive quiz using React, HTML, and CSS. The header and footer are
-            static but the remainder of the page is fully functional.
+            Developed a landing page from a mockup supplied in Adobe XD using React, HTML, and
+            Javascript. The header and footer are static.
           </p>
           <a
-            href="https://article-landing-page.herokuapp.com/"
+            href="https://hf-landing-page.herokuapp.com/"
             target="_blank"
             className="review-button"
           >
             Review the project
           </a>
         </div>
-      </div>
-      <div className="zen-desk">
-        <div className="zendesk-pic"></div>
-        <div className="project-title">
-          <h5>Interactive Quiz</h5>
-          <p>JS | HTML5 | CSS3</p>
-        </div>
-        <p className="zendesk-about">Developed an interactive quiz with logic built in creating customized results<br /> depending upon the answers.</p>
-        <a
-            href="https://article-landing-page.herokuapp.com/"
-            target="_blank"
-            className="review-button"
-          >
-            Review the project
-          </a>
       </div>
     </div>
   )
