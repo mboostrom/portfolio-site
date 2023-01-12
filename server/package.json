@@ -22,7 +22,7 @@
   "version": "0.0.1",
   "name": "portfolio-app-server",
   "engines": {
-    "node": "^14.19"
+    "node": "16.19.0"
   },
   "devDependencies": {
     "@babel/core": "^7.18.6",
